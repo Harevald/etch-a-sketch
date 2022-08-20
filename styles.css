@@ -10,7 +10,26 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: #A443B5;
     
+}
+button{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #A5EB54;
+}
+#controls{
+    height: 500px;
+    width: 200px;
+    background-color: #FF7D5B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 5px solid black;
 }
 header{
     width: 100%;
@@ -23,7 +42,6 @@ main{
     background-color: none;
     flex: 1 1 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -39,7 +57,7 @@ footer{
     width: 500px;
     height: 500px;
     border: 10px solid black;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
 }
