@@ -26,7 +26,6 @@ function changeSize(value) { //when you change value of the slider, create grid 
   setCurrentSize(value);
   updateSizeValue(value);
   clearGrid();
-  createGrid(value);
 }
 function setCurrentColor(newColor){
     currentColor = newColor;
