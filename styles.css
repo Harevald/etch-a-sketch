@@ -13,6 +13,7 @@ body{
     background-color: #A443B5;
     
 }
+
 button{
     border: 2px solid black;
     padding: 8px;
@@ -21,6 +22,10 @@ button{
     background-color: #A5EB54;
     cursor: pointer;
 }
+button.active, button:hover {
+    background-color: #666;
+    color: white;
+  }
 input[type=color]{
     cursor: pointer;
 }
